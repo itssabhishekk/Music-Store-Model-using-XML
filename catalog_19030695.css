@@ -1,0 +1,330 @@
+tonemusicstore{
+	background: url(images/mainbackground.png);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+	background-size: cover;
+    border: 2px solid black;
+	color: white;
+	font-family: "Gill sans MT";
+}
+
+/* For the heading */
+#Header{ 
+	padding-top: 30px;
+	padding-left: 13%;
+	padding-bottom: 20px;
+	font-family: "Elephant";
+	font-size: 55px;
+	font-weight: bold;
+	display:block;
+	text-align: center;
+}
+
+
+
+about{
+	font-family: "Albertus";
+	font-size: 25px;
+	display: block;
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: -80px;
+	margin-right: 13%;
+	color: rgb(69, 123, 157);
+
+}
+
+/*Adding logo*/
+storeLogo{
+	margin-top: -20px;
+	content: url("images/logo.png");
+	float: right;
+	height:200px;
+	width:200px;
+}
+
+music{
+	  width: auto;	  
+	  margin: 2%;	  
+}
+
+song{
+	  width: 90%;
+	  height: 490px;
+	  margin: 2%;
+	  display: block;
+	  border: 1px solid blue;
+	  padding: 2%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  
+}
+
+#S1{
+	margin-top: 80px;
+	height: 450px;
+}
+
+#S4,#S8{
+
+	height: 520px;
+}
+
+#S5,#S6,#S7,#S9,#S10{
+	height: 450px;
+}
+
+/*Setting cover art image position and their size*/
+#scorpion{
+	content: url("images/scorpion.jpg");
+	height:450px ; 
+	width:350px ;
+	float: right;
+	margin-top: -452px;
+}
+
+#bruno{
+	content: url("images/bruno.jpg");
+	height:450px ; 
+	width:350px ;
+	float: right;
+	margin-top: -462px;
+}
+
+#afterglow{
+	content: url("images/afterglow.jpg");
+	height:450px ; 
+	width:350px ;
+	float: right;
+	margin-top: -467px;
+}
+
+#script{
+	content: url("images/script.jpg");
+	height:450px ; 
+	width:350px ;
+	float: right;
+	margin-top: -480px;
+}
+
+#bhanai{
+	content: url("images/bhanai.jpg");
+	height:450px ; 
+	width:350px ;
+	float: right;
+	margin-top: -415px;
+}
+
+#choolo{
+	content: url("images/choolo.jpg");
+	height:450px ; 
+	width:350px ;
+	float: right;
+	margin-top: -415px;
+}
+
+#happier{
+	content: url("images/happier.png");
+	height:450px ; 
+	width:350px ;
+	float: right;
+	margin-top: -450px;
+}
+
+#eminem{
+	content: url("images/eminem.jpg");
+	height:480px ; 
+	width:350px ;
+	float: right;
+	margin-top: -500px;
+}
+
+#counting{
+	content: url("images/countingstars.jpg");
+	height:450px ; 
+	width:350px ;
+	float: right;
+	margin-top: -450px;
+}
+
+#abhimaan{
+	content: url("images/abhimaan.jpg");
+	height:450px ; 
+	width:350px ;
+	float: right;
+	margin-top: -418px;
+}
+
+/*To add a hover effect in the cover art image*/
+image:hover {
+  box-shadow: 0 0 10px 5px blue;
+}
+
+songName{
+	width: 1000px;
+ 	padding: 8px;
+	display: block;	
+	font-size: 30px;
+	font-weight: bold;
+	display: list-item;
+	list-style: disc;
+	list-style-position: inside;
+	font-family: Monesque, Albertus;
+	color: rgb(201, 190, 91);
+
+}
+
+Artists::before{
+	content: "A song by:";
+}
+Artists{
+	width: 400px;
+	padding: 8px;
+	font-size: 17px;
+	display: block;
+}
+featuringArtist::before{
+	content: "feat. ";
+}
+
+Length::before{
+	content: "Length: ";
+}
+Length{
+	width: 400px;
+	padding: 8px;
+	font-size: 17px;
+	display: block;
+}
+
+Album::before{
+	content: "Album: ";
+}
+Album{
+	width: 400px;
+	padding: 8px;
+	font-size: 17px;
+	display: block;
+}
+
+Rating::before{
+	content: "Rating: ";
+}
+Rating{
+	width: 400px;
+	padding: 8px;
+	font-size: 17px;
+	display: block;
+}
+
+releaseDate::before{
+	content: "Release Date: ";
+}
+releaseDate{
+	width: 400px;
+	padding: 8px;
+	font-size: 17px;
+	display: block;
+}
+
+Genre::before{
+	content: "Genre: ";
+}
+Genre{
+	width: 400px;
+	padding: 8px;
+	font-size: 17px;
+	display: block;
+}
+
+Producer::before{
+	content: "Producer: ";
+}
+Producer{
+	width: 400px;
+	padding: 8px;
+	font-size: 17px;
+	display: block;
+}
+
+Writer::before{
+	content: "Writer: ";
+}
+Writer{
+	width: 400px;
+	padding: 8px;
+	font-size: 17px;
+	display: block;
+}
+
+Label::before{
+	content: "Label: ";
+}
+Label{
+	width: 400px;
+	padding: 8px;
+	font-size: 17px;
+	display: block;
+}
+
+Price::before{
+	content: "Price: ";
+}
+Price{
+	width: 140px;
+	padding: 8px;
+	font-size: 27px;
+	display: block;
+	color: yellow;
+}
+
+/*To add a hover effect in the price text*/
+Price:hover { 
+  color: white;
+  cursor:pointer;
+  background: blue;
+  box-shadow: 0 0 10px blue,  0 0 40px blue, 0 0 80px blue;
+  transition-delay: 0s;
+
+}
+
+/* For the footer */
+#footer{
+	font-size: 20px;
+	color: white;
+	padding: 2%;
+	text-align: center;
+	display: block;
+}
+
+Address::before{
+	content: "Address: ";
+}
+Address{
+	display: block;
+}
+
+Telephone::before{
+	content: "Phone: ";
+}
+Telephone{
+	display: block;
+}
+
+Website::before{
+	content: "Wesbite: ";
+}
+Website{
+	display: block;
+}
+
+Email::before{
+	content: "Email: ";
+}
+Email{
+	display: block;
+}
+
+
+
+

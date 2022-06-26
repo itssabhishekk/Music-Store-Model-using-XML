@@ -1,0 +1,104 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="tonemusicstore">
+    <xs:annotation>
+      <xs:documentation>Author: Abhishek Rokaya
+    Date  : 6th May 2021
+ Linking CSS  Root Tag</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="storeHeader">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="storeName"/>
+              <xs:element type="xs:string" name="storeLogo"/>
+              <xs:element type="xs:string" name="about"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Music">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="song" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="songName"/>
+                    <xs:element name="Artists">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="mainArtist"/>
+                          <xs:element type="xs:string" name="featuringArtist" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Description">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:time" name="Length"/>
+                          <xs:element type="xs:string" name="Album" minOccurs="0"/>
+                          <xs:element type="xs:string" name="Rating"/>
+                          <xs:element name="releaseDate">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:short" name="Year"/>
+                                <xs:element type="xs:string" name="Month" minOccurs="0"/>
+                                <xs:element type="xs:byte" name="Day" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="Genre"/>
+                    <xs:element name="coreTeam">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="Producer" maxOccurs="unbounded" minOccurs="0"/>
+                          <xs:element type="xs:string" name="Writer" maxOccurs="unbounded" minOccurs="0"/>
+                          <xs:element type="xs:string" name="Label"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Price">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="currency" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="image">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="id" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id" use="optional"/>
+                  <xs:attribute type="xs:string" name="language" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="storeFooter">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Address"/>
+              <xs:element type="xs:long" name="Telephone"/>
+              <xs:element type="xs:anyURI" name="Website"/>
+              <xs:element type="xs:string" name="Email"/>
+              <xs:element type="xs:string" name="Copyright"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

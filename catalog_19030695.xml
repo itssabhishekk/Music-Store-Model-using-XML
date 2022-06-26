@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Author: Abhishek Rokaya
+    Date  : 6th May 2021
+-->
+
+<!-- Linking CSS -->
+<?xml-stylesheet type="text/css" href="catalog_19030695.css"?>  
+
+<!-- Load internal DTD to the xml document for xml validation -->
+<!DOCTYPE tonemusicstore SYSTEM "catalog_19030695.dtd">
+
+<!-- Root Tag and linking Schema -->
+<tonemusicstore  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_19030695.xsd"> 
+
+	<storeHeader id="Header">
+
+		<storeName>Tone Music Store</storeName>
+
+		<storeLogo></storeLogo>
+
+		<about>Music is the strongest form of magic. Get a song of your choice.</about>
+
+	</storeHeader>
+
+
+
+	<Music>
+
+		<song id="S1" language="English">
+
+			<songName>Still Loving You</songName>
+
+			<Artists>
+				<mainArtist>Scorpions</mainArtist>
+			</Artists>
+
+			<Description>
+				<Length>00:06:43</Length>
+				<Album>Love at First Sting</Album>
+				<Rating>9.3/10</Rating>
+
+				<releaseDate>
+					<Year>1984</Year>
+					<Month>July</Month>
+				</releaseDate>
+
+			</Description>
+
+			<Genre>Glam Metal</Genre>
+
+			<coreTeam>
+				<Producer>Dieter Dierks</Producer>
+				<Writer>Rudolf Schenker</Writer>
+				<Writer>Klaus Meine</Writer>
+				<Label>Universal</Label>
+			</coreTeam>
+
+			<Price currency="Dollar">$5</Price>
+
+			<image id="scorpion"></image>
+
+		</song>
+
+		<song id="S2" language="English">
+
+			<songName>It Will Rain</songName>
+
+			<Artists>
+				<mainArtist>Bruno Mars</mainArtist>
+			</Artists>
+
+			<Description>
+				<Length>00:04:17</Length>
+				<Album>The Twilight Saga</Album>
+				<Rating>8.2/10</Rating>
+
+				<releaseDate>
+					<Year>2011</Year>
+					<Month>September</Month>
+					<Day>27</Day>
+				</releaseDate>
+
+			</Description>
+
+			<Genre>Pop-soul </Genre>
+
+			<coreTeam>
+				<Producer>The Smeezingtons</Producer>
+
+				<Writer>Bruno Mars</Writer>
+				<Writer>Philip Lawrence</Writer>
+				<Writer>Ari Levine</Writer>
+
+				<Label>Chop Shop</Label>
+			</coreTeam>
+
+			<Price currency="Dollar">$4</Price>
+
+			<image id="bruno"></image>
+
+		</song>
+
+		<song id="S3" language="English">
+
+			<songName>Afterglow</songName>
+
+			<Artists>
+				<mainArtist>Ed Sheeran</mainArtist>
+			</Artists>
+
+			<Description>
+				<Length>00:03:05</Length>
+				<Rating>8.1/10</Rating>
+
+				<releaseDate>
+					<Year>2020</Year>
+					<Month>December</Month>
+					<Day>21</Day>
+				</releaseDate>
+
+			</Description>
+
+			<Genre>Folk-pop</Genre>
+
+			<coreTeam>
+				<Producer>Parisi</Producer>
+				<Producer>Fred</Producer>
+
+				<Writer>Ed Sheeran</Writer>
+				<Writer>David Hodges</Writer>
+				<Writer>Fred Gibson</Writer>
+
+				<Label>Asylum</Label>
+			</coreTeam>
+
+			<Price currency="Dollar">$3.80</Price>
+
+			<image id="afterglow"></image>
+
+		</song>
+
+		<song id="S4" language="English">
+
+			<songName>Hall of Fame</songName>
+
+			<Artists>
+				<mainArtist>the Script</mainArtist>
+				<featuringArtist>Will.i.am</featuringArtist>
+			</Artists>
+
+			<Description>
+				<Length>00:03:22</Length>
+				<Rating>8/10</Rating>
+
+				<releaseDate>
+					<Year>2012</Year>
+					<Month>August</Month>
+					<Day>20</Day>
+				</releaseDate>
+
+			</Description>
+
+			<Genre>Pop-rock</Genre>
+
+			<coreTeam>
+				<Producer>Danny O'Donoghue</Producer>
+				<Producer>Mark Sheehan</Producer>
+				<Producer>Jimbo Barry</Producer>
+
+				<Writer>Danny O'Donoghue</Writer>
+				<Writer>Mark Sheehan</Writer>
+				<Writer>James Barry</Writer>
+
+				<Label>Epic</Label>
+			</coreTeam>
+
+			<Price currency="Pound">&#163;3.80</Price>
+
+			<image id="script"></image>
+
+		</song>
+
+		<song id="S5" language="Nepali">
+
+			<songName>Bhanai</songName>
+
+			<Artists>
+				<mainArtist>Tribal Rain</mainArtist>
+			</Artists>
+
+			<Description>
+				<Length>00:03:59</Length>
+				<Album>Roka Yo Samay</Album>
+				<Rating>9.6/10</Rating>
+
+				<releaseDate>
+					<Year>2017</Year>
+				</releaseDate>
+
+			</Description>
+
+			<Genre>Genre: Jazz</Genre>
+
+			<coreTeam>
+				<Producer>Tribal Rain</Producer>
+
+				<Writer>Rahul Rai</Writer>
+
+				<Label>CD RUN India</Label>
+			</coreTeam>
+
+			<Price currency="Nrs">Rs.730</Price>
+
+			<image id="bhanai"></image>
+
+		</song>
+
+		<song id="S6" language="Hindi">
+
+			<songName>Choo Lo</songName>
+
+			<Artists>
+				<mainArtist>The Local Train</mainArtist>
+			</Artists>
+
+			<Description>
+				<Length>00:04:12</Length>
+				<Album>Vaaqif</Album>
+				<Rating>8.6/10</Rating>
+
+				<releaseDate>
+					<Year>2011</Year>
+				</releaseDate>
+
+			</Description>
+
+			<Genre>Pop-rock</Genre>
+
+			<coreTeam>
+				<Producer>The Local Train</Producer>
+
+				<Writer>Raman Negi</Writer>
+
+				<Label>T-Series</Label>
+			</coreTeam>
+
+			<Price currency="INR">Rs.400</Price>
+
+			<image id="choolo"></image>
+
+		</song>
+
+		<song id="S7" language="English">
+
+			<songName>Happier</songName>
+
+			<Artists>
+				<mainArtist>Marshmello</mainArtist>
+				<featuringArtist>Bastille</featuringArtist>
+			</Artists>
+
+			<Description>
+				<Length>00:03:34</Length>
+				<Rating>8.8/10</Rating>
+
+				<releaseDate>
+					<Year>2018</Year>
+					<Month>August</Month>
+					<Day>17</Day>
+				</releaseDate>
+
+			</Description>
+
+			<Genre>Dance-pop</Genre>
+
+			<coreTeam>
+				<Producer>Marshmello</Producer>
+
+				<Writer>Christopher Comstock</Writer>
+				<Writer>Dan Smith</Writer>
+				<Writer>Steve Mac</Writer>
+
+				<Label>Astralwerks</Label>
+			</coreTeam>
+
+			<Price currency="Dollar">$3.50</Price>
+
+			<image id="happier"></image>
+
+		</song>
+
+
+
+		<song id="S8" language="English">
+
+			<songName>Love the way you lie</songName>
+
+			<Artists>
+				<mainArtist>Eminem</mainArtist>
+				<featuringArtist>Rihanna</featuringArtist>
+			</Artists>
+
+			<Description>
+				<Length>00:04:23</Length>
+				<Album>Recovery</Album>
+				<Rating>8.9/10</Rating>
+
+				<releaseDate>
+					<Year>2010</Year>
+					<Month>August</Month>
+					<Day>9</Day>
+				</releaseDate>
+
+			</Description>
+
+			<Genre>Hip hop-pop</Genre>
+
+			<coreTeam>
+				<Producer>Alex da Kid</Producer>
+				<Producer>Makeba Riddick</Producer>
+
+				<Writer>Marshall Mathers</Writer>
+				<Writer>Alexander Grant</Writer>
+				<Writer>Holly Hafermann</Writer>
+
+				<Label>Shady</Label>
+			</coreTeam>
+
+			<Price currency="Dollar">$4.50</Price>
+
+			<image id="eminem"></image>
+
+		</song>
+
+		<song id="S9" language="English">
+
+			<songName>Counting Stars</songName>
+
+			<Artists>
+				<mainArtist>One Republic</mainArtist>
+			</Artists>
+
+			<Description>
+				<Length>00:04:19</Length>
+				<Album>Native</Album>
+				<Rating>9/10</Rating>
+
+				<releaseDate>
+					<Year>2013</Year>
+					<Month>June</Month>
+					<Day>14</Day>
+				</releaseDate>
+
+			</Description>
+
+			<Genre>Folf-pop</Genre>
+
+			<coreTeam>
+				<Producer>Ryan Tedder</Producer>
+				<Producer>Noel Zancanella</Producer>
+
+				<Writer>Ryan Tedder</Writer>
+
+				<Label>Mosley</Label>
+			</coreTeam>
+
+			<Price currency="Dollar">$4.30</Price>
+
+			<image id="counting"></image>
+
+		</song>
+
+		<song id="S10" language="Nepali">
+
+			<songName>Abhimaan</songName>
+
+			<Artists>
+				<mainArtist>Albatross</mainArtist>
+			</Artists>
+
+			<Description>
+				<Length>00:04:23</Length>
+				<Album>Recovery</Album>
+				<Rating>9/10</Rating>
+
+				<releaseDate>
+					<Year>2011</Year>
+				</releaseDate>
+
+			</Description>
+
+			<Genre>Progressive Rock</Genre>
+
+			<coreTeam>
+				<Producer>Albatross</Producer>
+
+				<Writer>Shrish Dali</Writer>
+
+				<Label>Bandcamp</Label>
+			</coreTeam>
+
+			<Price currency="Nrs">Rs.200</Price>
+
+			<image id="abhimaan"></image>
+
+		</song>
+
+
+	</Music>
+
+
+	<storeFooter id="footer">
+
+		<Address>Samakhusi, Kathmandu</Address>
+
+		<Telephone>9876543210</Telephone>
+
+		<Website>www.tonemusicstore.com</Website>
+
+		<Email>tmstore@gmail.com</Email>
+
+		<Copyright>&#169;2021 Tone Music Store. All Rights Reserved. </Copyright>
+
+	</storeFooter>
+
+</tonemusicstore> 

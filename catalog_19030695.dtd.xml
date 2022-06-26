@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT tonemusicstore (storeHeader,Music,storeFooter)>
+<!ATTLIST tonemusicstore xmlns:xsi CDATA #REQUIRED 
+  xsi:noNamespaceSchemaLocation CDATA #REQUIRED>
+
+<!ELEMENT storeHeader (storeName,storeLogo,about)>
+<!ATTLIST storeHeader
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED>
+
+<!ELEMENT Music (song)+>
+<!ATTLIST Music
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT storeFooter (Address,Telephone,Website,Email,Copyright)>
+<!ATTLIST storeFooter
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED>
+
+<!ELEMENT storeName (#PCDATA)>
+<!ATTLIST storeName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT storeLogo EMPTY>
+<!ATTLIST storeLogo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT about (#PCDATA)>
+<!ATTLIST about
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT song (songName,Artists,Description,Genre,coreTeam,Price,
+                image)>
+<!ATTLIST song
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED
+  language CDATA #REQUIRED>
+
+<!ELEMENT Address (#PCDATA)>
+<!ATTLIST Address
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Telephone (#PCDATA)>
+<!ATTLIST Telephone
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Website (#PCDATA)>
+<!ATTLIST Website
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Email (#PCDATA)>
+<!ATTLIST Email
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Copyright (#PCDATA)>
+<!ATTLIST Copyright
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT songName (#PCDATA)>
+<!ATTLIST songName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Artists (mainArtist,featuringArtist?)>
+<!ATTLIST Artists
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Description (Length,Album?,Rating,releaseDate)>
+<!ATTLIST Description
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Genre (#PCDATA)>
+<!ATTLIST Genre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT coreTeam (Producer+,Writer+,Label)>
+<!ATTLIST coreTeam
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Price (#PCDATA)>
+<!ATTLIST Price
+  xmlns CDATA #FIXED ''
+  currency CDATA #REQUIRED>
+
+<!ELEMENT image EMPTY>
+<!ATTLIST image
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED>
+
+<!ELEMENT mainArtist (#PCDATA)>
+<!ATTLIST mainArtist
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT featuringArtist (#PCDATA)>
+<!ATTLIST featuringArtist
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Length (#PCDATA)>
+<!ATTLIST Length
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Album (#PCDATA)>
+<!ATTLIST Album
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Rating (#PCDATA)>
+<!ATTLIST Rating
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT releaseDate (Year,Month?,Day?)>
+<!ATTLIST releaseDate
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Producer (#PCDATA)>
+<!ATTLIST Producer
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Writer (#PCDATA)>
+<!ATTLIST Writer
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Label (#PCDATA)>
+<!ATTLIST Label
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Year (#PCDATA)>
+<!ATTLIST Year
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Month (#PCDATA)>
+<!ATTLIST Month
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Day (#PCDATA)>
+<!ATTLIST Day
+  xmlns CDATA #FIXED ''>
